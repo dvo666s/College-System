@@ -1,4 +1,4 @@
-class Student{
+class Teacher{
     private:
         //  data start
 
@@ -10,7 +10,7 @@ class Student{
 
             long phonenum = 0;
 
-            double gpa = 0;
+            double salary = 0;
 
         //  data end
 
@@ -22,10 +22,10 @@ class Student{
             void set_id(int id){ this-> id = id; }
             void set_age(int age){ this-> age = age; }
             void set_phonenum(int phonenum){ this-> phonenum = phonenum; }
-            void set_gpa(double gpa){ this-> gpa = gpa; }
-        
+            void set_gpa(double salary){ this-> salary = salary; }
+
         // set end
-        
+
         // get start
 
             string get_name(){return name;}
@@ -33,8 +33,7 @@ class Student{
             int get_id(){return id;}
             int get_age(){return age;}
             int get_phonenum(){return phonenum;}
-            double get_gpa(){return gpa;}
+            double get_gpa(){return salary;}
 
         // get end
 };
-
