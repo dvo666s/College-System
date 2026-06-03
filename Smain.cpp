@@ -1,15 +1,7 @@
+#include "model/Student.cpp"
+#include "model/Teacher.cpp"
 #include <iostream>
 using namespace std;
-
-class college{
-    private:
-
-    public:
-
-
-
-};
-
 
 int main(){
 
