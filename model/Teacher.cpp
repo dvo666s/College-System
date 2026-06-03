@@ -1,23 +1,31 @@
-#include "Base.cpp"
+// #pragma once
+// #include "Base.cpp"
+// class Student;
 
-class Teacher : public Base {
-    private:
-        //  data start
+// class Teacher : public Base {
+//     private:
+//         //  data start
 
-            double salary = 0;
+//             double salary = 0;
 
-        //  data end
+//         //  data end
 
-    public:
-        // set start
+//     public:
+//         // set start
  
-            void set_salary(double salary){ this->salary = salary; }
+//             void set_salary(double salary){ this->salary = salary; }
 
-        // set end
+//         // set end
 
-        // get start
+//         // get start
 
-            double get_salary(){ return salary; }
+//             double get_salary(){ return salary; }
 
-        // get end
-};
+//         // get end
+// };
+
+// int main(){
+    
+
+//     return 0;
+// }

@@ -1,23 +1,28 @@
-#include "Base.cpp"
+// #pragma once
+// #include "Base.cpp"
+// class Teacher;
 
-class Student : public Base{
-    private:
-        //  data start
+// class Student : public Base{
+//     private:
+//         //  data start
 
-            double gpa = 0;
-        //  data end
+//             double gpa = 0;
 
-    public:
-        // set start
+
+
+//         //  data end
+
+//     public:
+//         // set start
  
-            void set_gpa(double gpa){ this-> gpa = gpa; }
-        
-        // set end
-        
-        // get start
+//             void set_gpa(double gpa){ this-> gpa = gpa; }
 
-            double get_gpa(){return gpa;}
+//         // set end
+        
+//         // get start
 
-        // get end
-};
+//             double get_gpa(){return gpa;}
+
+//         // get end
+// };
 
